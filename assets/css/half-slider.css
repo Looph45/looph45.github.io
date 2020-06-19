@@ -1,0 +1,376 @@
+
+html{font-size:110%;} 
+@media(min-width:60em){html{font-size: 90%}}
+
+body{
+  background: #252525;
+  color:white;
+}
+
+
+/*širka scroll*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+/*zaoblenie hran borderu*/
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+/*Zaoblenie, farba scrolera*/
+::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 10px;
+}
+/*Farba pre mobili*/
+::-webkit-scrollbar-thumb:hover {
+    background: purple; 
+
+/* Farebne označovanie webu */
+}
+::selection {
+  background: rgba(170, 2, 212, 0.51);
+  color: white;
+}
+::-moz-selection {
+  background: rgba(170, 2, 212, 0.51);
+}
+
+li{
+  font-weight:bold
+}
+
+ul { display: inline-block; text-align: left; }
+
+.center{
+  text-align: center;
+}
+
+
+.cosmic{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+}
+
+#podstranka {
+  background: url(../img/bg-podstranka.png);
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+#podstranka .row {
+  margin-bottom: 40px;
+}
+#podstranka .space {
+  margin-bottom: 40px;
+}
+
+.line{
+ border-top:3px solid purple ;
+}
+
+.bc{
+  font-weight: bold;
+  color:purple
+}
+
+.podnadpis_slider{
+  position: fixed;
+  margin-bottom:15%;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+
+.vote{
+  width: 50px;
+  height: 50px;
+  transform: skewY(20deg);
+}
+
+.new_1{
+  font-size: 25px;
+  color:white;
+  font-weight:bold;
+  background: rgba(0, 0, 0, 0.56);
+  border: 1px solid purple;
+  border-top: 5px 1px solid purple;
+}
+
+.new_2{
+  font-size: 25px;
+  color:white;
+  font-weight:bold;
+  background: rgba(0, 0, 0, 0.56);
+  border: 1px solid purple;
+  border-top: 5px 1px solid purple;
+}
+
+.new_3{
+  font-size: 25px;
+  color:white;
+  font-weight:bold;
+  background: rgba(0, 0, 0, 0.56);
+  border: 1px solid purple;
+  border-top: 5px 1px solid purple;
+}
+
+.new_4{
+  font-size: 25px;
+  color:white;
+  font-weight:bold;
+  background: rgba(0, 0, 0, 0.56);
+  border: 1px solid purple;
+  border-top: 5px 1px solid purple;
+}
+
+ .lpmc-page-title {
+  margin-top: 50px;
+  padding: 50px 0;
+  text-align: left;
+  background: url('../img/bg-podstranka.png') no-repeat top center  #031523;
+  border-bottom:3px solid purple;
+  border-top:3px solid purple;
+}
+.lpmc-page-title p {
+  font-size: 24px;
+}
+
+}
+.nadpis-podstranka{
+	position: absolute;
+margin-top: 5%;
+color:white;
+}
+
+.news_home {
+  background: url("../../assets/img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height:500px;
+  width:auto;
+  padding-top:2%;
+  color: black;
+}
+
+header {
+  background: url("../../assets/img/background.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  height:400px;
+  width:auto;
+  padding-top:8%;
+  color: black;
+  border-bottom:3px solid purple;
+  border-top:3px solid purple;
+}
+
+  .staff-member {
+  height: 50px;
+  width: 130px;
+  padding-top: 100px;´
+  margin-right: 9px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.staff-name {
+  background: rgba(0,0,0,.3);
+  height: 50px;
+  padding: 15px 10px;
+  min-width: 100%;
+}
+.staff-name span {
+  color: #fff;
+  font-size: 15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+}
+.footer-bottom{
+  padding: 2em;
+}
+.footer-top{
+ position: fixed;
+}
+.footer-middle{
+  padding-top: 2em;
+  color: white;
+}
+
+/*Recruitment*/
+.helper{
+	background: url("../../assets/img/helper.jpg") no-repeat;
+	background-color: gray;
+	font-weight: auto;
+	top: auto;
+	bottom:auto; 
+}
+
+.builder{
+	background: url("../../assets/img/builder.jpg") no-repeat;
+	background-color: gray;
+	font-weight: auto;
+	top: auto;
+	bottom:auto; 
+}
+
+
+ /*Gallery*/
+* {
+    box-sizing: border-box;
+}
+
+
+.zoom:hover {
+    transform: scale(1.5);
+    transition: transform .2s;
+}
+
+/* buttons */
+.moj{
+	background-color: transparent;
+	color:white;
+	border-top:purple solid 1px;
+	border-bottom:purple solid 1px;
+	border-right:purple solid 1px; 
+	border-left:purple solid 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.moj:hover{
+	background-color: purple;
+	color:white;
+	font-weight: bold;
+	border-top:white solid 1px;
+	border-bottom:white solid 1px;
+	border-right:white solid 1px; 
+	border-left:white solid 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+hr{
+	border:purple solid 1px;
+}
+
+.staff-team {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 20px auto 10px auto;
+	width: 95%;
+}
+
+.staff {
+	background: ;
+	padding: 40px 0;
+}
+
+.staff h2 {
+	color: white;
+	text-align: center;
+	margin-top: 0;
+}
+
+.staff-team > div {
+	padding: 15px;
+	margin: 5px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-align: center;
+}
+
+.staff-team img {
+	width: 200px;
+	margin-top: 20px;
+}
+
+.owner,
+.buil,
+.help,
+.adm,
+.dev,
+.mod {
+	padding: 12px;
+}
+
+.owner {background-color: rgba(215, 15, 15, 0.7);}
+.buil {background-color: rgba(130, 10, 138, 0.7);}
+.help {background-color: rgba(28, 143, 10, 0.73);}
+.mod {background-color: rgba(10, 63, 143, 0.73);}
+.adm {background-color: rgba(143, 10, 12, 0.73);}
+.dev {background-color: rgba(219, 15, 189, 0.64);}
+
+@media(min-width: 600px) {
+	.logo img {
+		width: 350px;
+	}
+	.img {
+		width: 100%;
+	}
+	.items {
+		padding: 30px 0 20px 0;
+	}
+}
+
+@media(min-width: 1000px) {
+	.items {
+		justify-content: center;
+	}
+
+	.item:not(:first-child) {
+		margin-left: 90px;
+	}
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  text-decoration: none;
+  color: purple;
+}
+
+.nnav{
+  background-color: transparent;
+  color:white;
+}
+.nnav:hover{
+  background-color: purple;
+  color:white;
+}
